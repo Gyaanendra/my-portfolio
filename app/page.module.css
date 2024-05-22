@@ -1,0 +1,31 @@
+.btntext{
+    font-family: 'Cascadia';
+    color: rgb(47, 47, 57);
+    font-size: 18px;
+    margin-left: 80px;
+}
+
+/* components/Counter.module.css */
+/* page.module.css */
+.count {
+    font-size: 30px;
+    padding-left: 10%;
+    animation-duration: 3s;
+    animation-name: slidein;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+  
+  .animate {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+     to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
