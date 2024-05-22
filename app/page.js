@@ -19,7 +19,7 @@ export default function Counter() {
   };
   return (
     <div>
-      <p className="style.btntext">You touched <p className={`${style.count} ${animate ? style.animate : ''}`}>{count}</p> times</p>
+      <p className="style.btntext">You touched jasbir <p className={`${style.count} ${animate ? style.animate : ''}`}>{count}</p> times</p>
       
       <ImageButton src="./jasbir.png" alt="btn" onClick={handleClick} />
       <p>click on the image </p>
