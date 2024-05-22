@@ -13,7 +13,7 @@ const buttonStyles = css`
 
   .image {
     display: block;
-    width: 200px; /* Adjust the size as needed */
+    width: 300px; /* Adjust the size as needed */
     height: auto;
     border-radius: 12px; /* Optional: for rounded corners */
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2); /* Optional: for shadow effect */
